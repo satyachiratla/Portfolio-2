@@ -6,7 +6,7 @@ import PlacesImage from "../assets/places.png";
 
 const Projects = () => {
   const openProfileHandler = () => {
-    const newWindow = window.open("");
+    const newWindow = window.open("https://satyasportfolio.netlify.app/");
     if (newWindow) newWindow.opener = null;
   };
 
@@ -21,7 +21,7 @@ const Projects = () => {
   };
 
   const openProSrcHandler = () => {
-    const newWindow = window.open("");
+    const newWindow = window.open("https://github.com/satyachiratla/Portfolio-2/tree/master/src");
     if (newWindow) newWindow.opener = null;
   };
 
