@@ -42,12 +42,13 @@
 }
 
 @media(max-width: 40rem) {
+
     .header-nav {
         display: none;
     }
 
     .logo img {
-        /* margin-left: 8%; */
+        margin-right: 5%;
     }
 }
 

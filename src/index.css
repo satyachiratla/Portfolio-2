@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -17,7 +20,13 @@ body {
   background-image: url(./assets/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: cover; */
+  background-size: cover;
+  background-clip: border-box;
   height: 100%;
 }
 
+@media(max-width: 40rem) {
+  body {
+    text-align: center;
+  }
+}
