@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;1,100&family=Roboto:ital,wght@1,100&display=swap');
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-heading h1 {
+    background: crimson;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    padding: 3px;
+    border-radius: 16px;
+}
+
+.contact-heading h2 {
+    background: rgb(0, 134, 139);
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    padding: 3px;
+    border-radius: 16px;
+    margin-top: 0;
+}
+
+.email {
+    color: #ff0000;
+    font-size: 28px;
+    font-family: "Abel", sans-serif;
+}
+
+.other-design {
+    color: #0af185;
+    background: #3d08fc8c;
+    padding: 3px;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.social img {
+    margin: 0 1.5rem;
+}
+
+.love {
+    color: rgb(14, 2, 13);
+    font-size: 22px;
+    margin: 2rem;
+    text-align: center;
+}
+
+@media(max-width: 40rem) {
+
+    .email {
+        font-size: 18px;
+    }
+}

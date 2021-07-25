@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;1,100&family=Roboto:ital,wght@1,100&display=swap");
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-heading h1 {
+  background: crimson;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 3px;
+  border-radius: 16px;
+}
+
+.projects-heading h2 {
+  background: rgb(0, 134, 139);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 3px;
+  border-radius: 16px;
+  margin-top: 0;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 14rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.projects-content h1 {
+  font-family: "Abel", sans-serif;
+  margin-left: 5%;
+  background: #ff9b05;
+  width: 45%;
+  text-align: center;
+  border-radius: 16px;
+  padding: 5px;
+  color: #1a2ff0b0;
+}
+
+.projects-content p {
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin-left: 5%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.projects-content img {
+  width: 40%;
+  height: 200px;
+  border: 3px solid #070606;
+  border-radius: 16px;
+  height: 250px;
+}
+
+.projects-content img:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.button-actions {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: flex-start;
+}
+
+.button-demo {
+  background: #801f9e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #f3ece7;
+  /* width: 15%; */
+  margin: 0 4rem;
+  padding: 8px 16px;
+  border: 3px solid grey;
+  border-radius: 16px;
+}
+
+.button-demo:hover {
+  cursor: pointer;
+  background: #801f9ed5;
+}
+
+.button-src {
+  background: #db0b73;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  /* width: 15%; */
+  margin: 0 4rem;
+  padding: 8px 16px;
+  border: 3px solid grey;
+  border-radius: 16px;
+}
+
+.button-src:hover {
+  cursor: pointer;
+  background: black;
+  color: #db0b73;
+}
+
+@media (max-width: 40rem) {
+  .projects-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-content img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .projects-content h1 {
+    width: 60%;
+    margin-left: 18%;
+  }
+
+  .projects-content p {
+    width: 80%;
+    margin-left: 12%;
+  }
+}
